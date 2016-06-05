@@ -1,7 +1,7 @@
 # smoothie-cnc-ui
 CNC control UI for Smoothieboard web interface.  Put into /sd/cnc/
 
-There is a JS event picking the position information once a second.
+There is a JS event polling the position information once a second.
 
 The javascript assumes .gcode files for upload - you may want to change that if your toolchain outputs something else
 
